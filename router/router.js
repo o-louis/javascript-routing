@@ -1,7 +1,6 @@
 export class Router {
     constructor() {
         this.routes = [];
-        this.path = null;
         this.loadedTemplates = 0;
         this.currentUrl = window.location.href;
         this.locationOnChange();
